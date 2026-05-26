@@ -1,20 +1,45 @@
-#Trabajo Practico Integrador-Gestión Colaborativa
+# Análisis de Ventas - TP2 - Organización Empresarial - UTN
 
-#Integrantes (imaginarios): Hugo, Paco y Luis.
+## Descripción del Proyecto
+Este proyecto forma parte del Trabajo Práctico de la cátedra de Organización Empresarial
+de la Tecnicatura Universitaria en Programación (UTN - Modalidad a Distancia).
 
-#Escenario elegido: Análisis de ventas de una pequeña empresa. Deemos analizar la información de ventas para generar indicadores básicos que permitan interpretar el desempeño de la empresa.
+El objetivo es analizar un conjunto de datos de ventas de una tienda de ropa para generar
+indicadores básicos que permitan interpretar el desempeño comercial, aplicando control de
+versiones con Git y GitHub, gestión de tareas con Jira y desarrollo colaborativo.
 
-# Descripción del proyecto: El objetivo de este trabajo es aplicar herramientas de gestión colaborativa utilizando Jira, Git y GitHub para desarrollar un análisis de datos. Para ello desarrollaremos un proyecto basado en el análisis de ventas de una pequeña empreza, donde calcularemos ventas totales, producto mas vendido, ventas por mes. Datos a partir de los cuales se generarán gráficos representativos de las ventas par un mejor análisis, sobre todo visual.
+## Escenario
+Escenario B - Análisis de Ventas de una Pequeña Empresa
 
-# Dataset utilizado: Se utiliza un dataset de ventas que contiene información sobre productos, cantidad, precio por unidad y fechas de venta.
+## Integrantes
+- Hugo: Líder y Organizador
+- Paco: Desarrollador Técnico
+- Luis:Revisor y QA
+*(Los integrantes son ficticios ya que el tp lo hice sola, utilicé diferentes mails para cada usuario.)
 
-# Estructura del proyecto:
-Datos: contiene los archivos de datos en formato CSV o Excel de tamaño moderado.
-Scripts: contiene los programas desarrollado por el equipo en lenguaje Python, incluye comentarios técnicos explicativos de la lógica.
-Resultados: contiene resultados del análisis en gráficos, tablas  y archivos exportados por el script.
-Archivo .gitignore: contendrá archivos temporales de Python, checkpoints de notebooks y archivos de gran tamaño no necesarios.
+## Dataset
+Dataset de ventas simuladas de una tienda de ropa con registros de:
+- Fecha de venta
+- Producto (Campera, Remera, Pantalon, Vestido, Zapatillas)
+- Cantidad vendida
+- Monto de venta
+El dataset está organizado por n°de fila, por si se quiere modificar el script para contar cuántos productos diferentes está manejando la tienda. En este caso no lo utilize.
 
-# Cómo ejecutar el proyecto:
-1. Abrir el notebook en Google Colab
-2. Ejecutar el script en la carpeta /scripts
-3. Ver los resultados en la carpeta /resultados
+Período: Enero a Diciembre 2024.
+
+## Instrucciones para ejecutar el script
+1. Clonar el repositorio
+2. Abrir Google Colab
+3. Posicionarse en la carpeta scripts:
+   import os
+   os.chdir('/content/TPI_OE_TUP_Analisis_Ventas_/scripts')
+4. Ejecutar el script:
+   !python analisis_ventas.py
+5. Los resultados se guardan en /resultados/resultados_ventas.txt
+
+## Estructura del Repositorio
+- /datos — Dataset de ventas en formato CSV
+- /scripts — Script de análisis en Python
+- /resultados — Resultados generados por el análisis
+- README.md — Documentación del proyecto
+- .gitignore — Archivos excluidos del repositorio
