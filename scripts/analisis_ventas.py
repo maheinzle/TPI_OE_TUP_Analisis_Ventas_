@@ -93,3 +93,10 @@ def main(): #inicio del programa.
     guardar_resultados(total, producto, meses, '../resultados/resultados_ventas.txt')
 
 main() #ejecuta la función.
+
+# REVISIÓN DE CÓDIGO - P3 (Luis) - SCRUM-3
+# Fecha de revisión: 2026-05-26
+# - El código es claro y fácil de leer.
+# - No hay datos sensibles expuestos.
+# - Las rutas son relativas, funciona bien en Colab.
+# - El dataset está en CSV, compatible con el script.
